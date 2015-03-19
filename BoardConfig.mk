@@ -52,3 +52,17 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
 -include vendor/lge/d852/BoardConfigVendor.mk
+
+# BlissPop Config Flags
+BLISS_BUILD_BLOCK := 1
+TARGET_TC_ROM :=4.8-sm
+TARGET_TC_KERNEL :=4.9-sm
+BLISSIFY :=true
+BLISS_O3 :=true
+BLISS_GRAPHITE :=false
+BLISS_STRICT :=true
+BLISS_KRAIT :=true
+
+TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
+-include vendor/bliss/config/sm.mk

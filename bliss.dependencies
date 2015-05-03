@@ -1,6 +1,20 @@
 [
   {
-    "repository": "android_device_lge_g3-common",
-    "target_path": "device/lge/g3-common"
+    "remote": "github",
+    "repository": "TeamBliss-Devices/android_device_lge_g3-common",
+    "target_path": "device/lge/g3-common",
+    "revision": "lp5.1"
+  },
+  {
+    "remote": "github",
+    "repository": "TeamBliss-Devices/android_device_lge_qcom-common",
+    "target_path": "device/lge/qcom-common",
+    "revision": "lp5.1"
+  },
+  {
+    "remote": "github",
+    "repository": "777jon/g3_kernel",
+    "target_path": "kernel/lge/777jon",
+    "revision": "lp-release"
   }
 ]
